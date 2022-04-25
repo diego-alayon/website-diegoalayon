@@ -5,7 +5,8 @@ import styles from '../styles/Home.module.css'
 export default function Home() {
   return (
     <div>
-      Welcome to new website
+      <h1>Welcome to new website</h1>
+      <h2>Website deployed in Vercel</h2>
     </div>
   )
 }
