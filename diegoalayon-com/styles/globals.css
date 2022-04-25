@@ -2,20 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@font-face {
+  font-family: 'sfpro-display-regular';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''), url('../public/fonts/SF-Pro-Display-Regular.woff') format('woff2');
 }
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
+@font-face {
+  font-family: 'sfpro-display-bold';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''), url('../public/fonts/SF-Pro-Display-bold.woff') format('woff2');
 }
