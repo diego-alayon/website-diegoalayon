@@ -2,22 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  html {
-    font-family: 'sfpro-display-bold';
-  }
-}
-
-
 @font-face {
   font-family: 'sfpro-display-regular';
   font-style: normal;
   font-weight: 400;
-  src: local(''), url('../public/fonts/sf-pro-display-regular.woff2') format('woff2');
+  src: local(''), url('../public/fonts/SF-Pro-Display-Regular.woff') format('woff2');
 }
 @font-face {
   font-family: 'sfpro-display-bold';
   font-style: normal;
   font-weight: 400;
-  src: local(''), url('../public/fonts/sf-pro-display-bold.woff2') format('woff2');
+  src: local(''), url('../public/fonts/SF-Pro-Display-bold.woff') format('woff2');
 }

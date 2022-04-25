@@ -10,7 +10,8 @@ module.exports = {
     extend: {
       fontFamily: {
         'sfproDisplayRegular': 'sfpro-display-regular',
-        'sfproDisplayBold': 'sfpro-display-bold'
+        'sfproDisplayBold': 'sfpro-display-bold',
+        'html': ['sfpro-display-bold']
       }
     },
   },
@@ -20,8 +21,8 @@ module.exports = {
         'myClass': {}
       }),
       addBase({
-        'body': {
-          fontSize: theme('fontFamily.sfproDisplayBold')
+        'html': {fontFamily: theme('fontFamily.sfproDisplayRegular'),
+        'h1': {fontFamily: theme('fontFamily.sfproDisplayBold')}
         }
       })
     })
